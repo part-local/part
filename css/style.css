@@ -48,7 +48,7 @@ HEADER
 .banner{
     
     display: block;
-    background-image: url(/img/Rectangl.png);
+    background-image: url(img/Rectangl.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -142,7 +142,7 @@ padding-right:24px ;
     position: absolute;
 }
 .number-one{
-background-image: url(/img/01.png);
+background-image: url(img/01.png);
 
 width: 126px;
   height: 71px;
@@ -152,14 +152,14 @@ background-repeat: no-repeat;
 
 }
 .number-two{
-    background-image: url(/img/02.png);
+    background-image: url(img/02.png);
     width: 184px;
   height: 81px;
 left: 88px;
 background-repeat: no-repeat;
 }
 .number-three{
-    background-image: url(/img/03.png);
+    background-image: url(img/03.png);
     width: 142px;
   height: 68px;
 left: 94px;
@@ -194,7 +194,7 @@ background-repeat: no-repeat;
 border-right: none;
 }
 .btn-start{
-    background-image: url(/img/Vector\ Smart\ Object.png);
+    background-image: url(img/Vector\ Smart\ Object.png);
     background-position: center center;
     background-repeat: no-repeat;
     padding: 29px 58px;
@@ -209,7 +209,7 @@ text-align: center;
 
 .footer{
     margin-top: 95px;
-    background-image: url(/img/Rectangle.png);
+    background-image: url(img/Rectangle.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;

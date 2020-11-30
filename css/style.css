@@ -1,0 +1,276 @@
+body{
+    background-color: #eaeaea;
+    font-family: 'Montserrat', sans-serif;
+    
+} 
+
+.wrap{
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1170px;
+    /*viclychaet cnremlenie ck left i pozvlaet ctavit po centry*/
+    margin: 0 auto;
+
+}
+
+a{text-decoration: none;}
+
+
+/*
+HEADER
+*/
+
+.header-inner{
+    display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+.logo{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.navi a{
+    border-right: 2px solid #494949; 
+        font-size: 17px;
+     font-weight: bold;
+    color: #494949;
+    padding-right:15px;
+    padding-left: 15px;
+}
+.navi a:last-child{
+    border-right: none;
+    padding-right:0px;
+}
+.navi a:first-child{
+    padding-left: 0px;
+}
+
+.banner{
+    
+    display: block;
+    background-image: url(/img/Rectangl.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-inner{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 140px;
+    line-height: 1.2;
+}
+.text{
+    flex: start;
+}
+.title{
+    font-family: 'Montserrat';
+    font-size: 25px;
+   
+}
+.h2{
+    font-size: 35px;
+}
+.sub{
+    max-width: 569px;
+    font-family: 'Roboto';
+    font-size: 25px;
+    padding-bottom: 65px;
+}
+.btn{
+   
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    border: solid 2px #ffffff;
+    padding: 10px 20px 10px 20px;
+}
+
+.section-inner{
+    text-align: center;
+}
+
+
+.nav a{
+    border-right: 2px solid #494949; 
+        font-size: 17px;
+     font-weight: bold;
+    color: #494949;
+    padding-right:15px;
+    padding-left: 15px;
+}
+.nav a:last-child{
+    border-right: none;
+    padding-right:0px;
+}
+.nav a:first-child{
+    padding-left: 0px;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.11);
+    margin-top: 65px;
+    margin-bottom: 100px;
+   
+}
+.box-item
+.number{
+    font-size: 100px;
+    font-weight: 900;
+    margin-top: 0;
+margin-bottom:0 ;
+color: #282828;
+padding-right:24px ;
+    position: relative;
+}
+.number:first-child{
+
+}
+.n{
+    padding-right: 20px;
+}
+.number:last-child{
+    padding-right: 30px;
+}
+.number::after{
+    content: '';
+    display: block;
+    position: absolute;
+}
+.number-one{
+background-image: url(/img/01.png);
+
+width: 126px;
+  height: 71px;
+left: 69px;
+background-repeat: no-repeat;
+
+
+}
+.number-two{
+    background-image: url(/img/02.png);
+    width: 184px;
+  height: 81px;
+left: 88px;
+background-repeat: no-repeat;
+}
+.number-three{
+    background-image: url(/img/03.png);
+    width: 142px;
+  height: 68px;
+left: 94px;
+background-repeat: no-repeat;
+}
+.t{
+    display: flex;
+    align-items: center;
+}
+.box-text{
+    border-right: 1px solid #eaeaea;
+    padding-right: 55px;
+}
+
+.box-text h3 {
+    font-size: 40px;
+    color: #282828;
+    font-weight: bold;
+    margin-bottom: 23px;
+}
+.box-text p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 1.33;
+    margin-top: 0px;
+}
+.box-item{
+    padding: 64px 0 58px 55px;
+    box-sizing: content-box;
+}
+.box-item:last-child .box-text{
+border-right: none;
+}
+.btn-start{
+    background-image: url(/img/Vector\ Smart\ Object.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 29px 58px;
+color: #fff;
+font-size: 30px;
+font-weight: 700;
+
+}
+.pp{
+text-align: center;
+}
+
+.footer{
+    margin-top: 95px;
+    background-image: url(/img/Rectangle.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+padding: 30px 0;
+color: 
+#eaeaea
+;
+text-transform: uppercase;
+font-size: 20px;
+font-family: 'Roboto', sans-serif;
+text-align: center;
+}
+
+@media (max-width:1000px){
+    .wrap{
+        max-width: 800px;
+    }
+    .pizza{
+        display: none
+    }
+    .banner-inner{
+padding-top: 76px;
+padding-bottom: 100px;
+    }
+    .h2{
+        font-size: 25px;
+    }
+    .box{
+        flex-direction: column;
+    }
+    .box-text{
+border-right: none;
+padding-right: 0;
+padding-bottom: 35px;
+border-bottom: 1px solid #eaeaea;
+    }
+    .box-item:last-child .box-text{
+        border-bottom: none;
+    }
+    .box-item{
+        padding: 20px 15px 24px 55px;
+    }
+    .number{
+        font-size: 50px;
+
+    }
+    
+}
+@media (max-width:700px){
+    .header-inner{
+        flex-direction: column;
+        padding-bottom: 15px;
+    }
+    .number{
+        font-size: 50px;
+
+    }
+    
+
+}
+
+
+
